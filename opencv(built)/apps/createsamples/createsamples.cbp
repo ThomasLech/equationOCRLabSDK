@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="createsamples"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\checks\;CMake Files\cmake\templates\;CMake Files\modules\;CMake Files\modules\core\;CMake Files\modules\core\include\;CMake Files\modules\core\include\opencv2\;CMake Files\modules\core\include\opencv2\core\;CMake Files\modules\calib3d\;CMake Files\modules\cudaarithm\;CMake Files\modules\cudabgsegm\;CMake Files\modules\cudacodec\;CMake Files\modules\cudafeatures2d\;CMake Files\modules\cudafilters\;CMake Files\modules\cudaimgproc\;CMake Files\modules\cudalegacy\;CMake Files\modules\cudaobjdetect\;CMake Files\modules\cudaoptflow\;CMake Files\modules\cudastereo\;CMake Files\modules\cudawarping\;CMake Files\modules\cudev\;CMake Files\modules\features2d\;CMake Files\modules\flann\;CMake Files\modules\highgui\;CMake Files\modules\imgcodecs\;CMake Files\modules\imgproc\;CMake Files\modules\java\;CMake Files\modules\ml\;CMake Files\modules\objdetect\;CMake Files\modules\photo\;CMake Files\modules\python\;CMake Files\modules\shape\;CMake Files\modules\stitching\;CMake Files\modules\superres\;CMake Files\modules\ts\;CMake Files\modules\video\;CMake Files\modules\videoio\;CMake Files\modules\videostab\;CMake Files\modules\viz\;CMake Files\modules\world\;CMake Files\3rdparty\;CMake Files\3rdparty\ffmpeg\;CMake Files\3rdparty\zlib\;CMake Files\3rdparty\libtiff\;CMake Files\3rdparty\libjpeg\;CMake Files\3rdparty\libwebp\;CMake Files\3rdparty\libjasper\;CMake Files\3rdparty\libpng\;CMake Files\3rdparty\openexr\;CMake Files\include\;CMake Files\doc\;CMake Files\data\;CMake Files\apps\;CMake Files\apps\traincascade\;CMake Files\apps\createsamples\;CMake Files\apps\annotation\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/opencv/new_build/apps/createsamples"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_createsamples">
+				<Option output="F:/opencv/new_build/bin/opencv_createsamples.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/opencv/new_build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="F:/opencv/new_build"/>
+					<Add directory="F:/opencv/sources/apps/createsamples/PRIVATE"/>
+					<Add directory="F:/opencv/sources/apps/createsamples"/>
+					<Add directory="F:/opencv/sources/include/opencv"/>
+					<Add directory="F:/opencv/sources/modules/core/include"/>
+					<Add directory="F:/opencv/sources/modules/imgproc/include"/>
+					<Add directory="F:/opencv/sources/modules/objdetect/include"/>
+					<Add directory="F:/opencv/sources/modules/ml/include"/>
+					<Add directory="F:/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="F:/opencv/sources/modules/videoio/include"/>
+					<Add directory="F:/opencv/sources/modules/highgui/include"/>
+					<Add directory="F:/opencv/sources/modules/calib3d/include"/>
+					<Add directory="F:/opencv/sources/modules/flann/include"/>
+					<Add directory="F:/opencv/sources/modules/features2d/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 opencv_createsamples"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="opencv_createsamples/fast">
+				<Option output="F:/opencv/new_build/bin/opencv_createsamples.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/opencv/new_build/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D__OPENCV_BUILD=1"/>
+					<Add directory="F:/opencv/new_build"/>
+					<Add directory="F:/opencv/sources/apps/createsamples/PRIVATE"/>
+					<Add directory="F:/opencv/sources/apps/createsamples"/>
+					<Add directory="F:/opencv/sources/include/opencv"/>
+					<Add directory="F:/opencv/sources/modules/core/include"/>
+					<Add directory="F:/opencv/sources/modules/imgproc/include"/>
+					<Add directory="F:/opencv/sources/modules/objdetect/include"/>
+					<Add directory="F:/opencv/sources/modules/ml/include"/>
+					<Add directory="F:/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="F:/opencv/sources/modules/videoio/include"/>
+					<Add directory="F:/opencv/sources/modules/highgui/include"/>
+					<Add directory="F:/opencv/sources/modules/calib3d/include"/>
+					<Add directory="F:/opencv/sources/modules/flann/include"/>
+					<Add directory="F:/opencv/sources/modules/features2d/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
+					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 opencv_createsamples/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;F:/opencv/new_build/apps/createsamples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/opencv/sources/apps/createsamples/createsamples.cpp">
+			<Option target="opencv_createsamples"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/apps/createsamples/utility.cpp">
+			<Option target="opencv_createsamples"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/apps/createsamples/utility.hpp">
+			<Option target="opencv_createsamples"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVMinDepVersions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVDetectCXXCompiler.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVVersion.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVCompilerOptions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVPCHSupport.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVModule.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVFindLibsGrfmt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVFindWebP.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVFindLibsGUI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVFindLibsVideo.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/FindGstreamerWindows.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVFindLibsPerf.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVDetectCUDA.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVDetectPython.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVDetectApacheAnt.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVDetectOpenCL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVDetectDirectX.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVFindMatlab.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVDetectVTK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVExtraTargets.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVGenHeaders.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVGenPkgconfig.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVGenAndroidMK.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVGenConfig.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVGenABI.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/OpenCVPackaging.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/checks/win32uitest.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/checks/vfwtest.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/checks/opencl.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/checks/directx.cpp">
+			<Option virtualFolder="CMake Files\cmake\checks\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/custom_hal.hpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/cvconfig.h.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/cvconfig.h.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/opencv_modules.hpp.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/opencv-XXX.pc.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/OpenCVConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/OpenCVConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/OpenCVConfig.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/cmake/templates/OpenCVConfig-version.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\templates\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\core\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\core\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/core/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\core\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/core/include/opencv2/core/version.hpp">
+			<Option virtualFolder="CMake Files\modules\core\include\opencv2\core\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/calib3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\calib3d\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/calib3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\calib3d\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/calib3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\calib3d\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudaarithm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaarithm\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudabgsegm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudabgsegm\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudacodec/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudacodec\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudafeatures2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudafeatures2d\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudafilters/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudafilters\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudaimgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaimgproc\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudalegacy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudalegacy\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudaobjdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaobjdetect\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudaoptflow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudaoptflow\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudastereo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudastereo\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudawarping/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudawarping\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/cudev/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\cudev\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/features2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\features2d\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/features2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\features2d\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/features2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\features2d\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/flann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\flann\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/flann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\flann\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/flann/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\flann\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/highgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\highgui\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/highgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\highgui\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/highgui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\highgui\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/imgcodecs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgcodecs\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/imgcodecs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgcodecs\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/imgcodecs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgcodecs\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/imgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgproc\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/imgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgproc\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/imgproc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\imgproc\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/java/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\java\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/ml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ml\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/ml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ml\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/ml/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ml\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/objdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objdetect\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/objdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objdetect\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/objdetect/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\objdetect\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/photo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\photo\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/photo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\photo\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/photo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\photo\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/python/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\python\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/shape/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\shape\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/shape/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\shape\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/shape/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\shape\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/stitching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stitching\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/stitching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stitching\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/stitching/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\stitching\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/superres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\superres\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/superres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\superres\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/superres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\superres\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/ts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ts\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/ts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ts\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/ts/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\ts\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/video/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\video\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/video/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\video\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/video/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\video\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/videoio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videoio\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/videoio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videoio\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/videoio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videoio\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/videostab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videostab\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/videostab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videostab\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/videostab/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\videostab\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/viz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\viz\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\world\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\world\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/modules/world/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\world\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/ffmpeg/ffmpeg.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\ffmpeg\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/ffmpeg/ffmpeg_version.cmake">
+			<Option virtualFolder="CMake Files\3rdparty\ffmpeg\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\zlib\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\zlib\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/zlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\zlib\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/zlib/zconf.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\zlib\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libtiff/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libtiff/tif_config.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libtiff/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libtiff/tif_config.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\libtiff\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libjpeg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libjpeg\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libjpeg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libjpeg\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libwebp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libwebp\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libwebp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libwebp\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libjasper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libjasper\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libjasper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libjasper\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libpng/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libpng\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/libpng/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\libpng\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/openexr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/openexr/IlmBaseConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/openexr/OpenEXRConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/openexr/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/openexr/IlmBaseConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/3rdparty/openexr/OpenEXRConfig.h.cmakein">
+			<Option virtualFolder="CMake Files\3rdparty\openexr\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\include\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/doc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\doc\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/data/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\data\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/apps/traincascade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\traincascade\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/apps/traincascade/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\traincascade\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/apps/createsamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\createsamples\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/apps/createsamples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\createsamples\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/apps/annotation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\annotation\"/>
+		</Unit>
+		<Unit filename="F:/opencv/sources/apps/annotation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\annotation\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

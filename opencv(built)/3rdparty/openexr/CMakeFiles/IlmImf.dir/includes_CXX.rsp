@@ -1,0 +1,1 @@
+-IF:/opencv/sources/3rdparty/openexr/IlmImf -IF:/opencv/sources/3rdparty/openexr/Imath -IF:/opencv/sources/3rdparty/openexr/IlmThread -IF:/opencv/sources/3rdparty/openexr/Iex -IF:/opencv/sources/3rdparty/openexr/Half -IF:/opencv/new_build/3rdparty/zlib -IF:/opencv/sources/3rdparty/zlib -IF:/opencv/new_build/3rdparty/openexr -IF:/opencv/new_build 

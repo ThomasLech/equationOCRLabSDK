@@ -1,0 +1,75 @@
+Determining if the function fseeko exists failed with the following output:
+Change Dir: F:/opencv/new_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_a0aae/fast"
+C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_a0aae.dir\build.make CMakeFiles/cmTC_a0aae.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/opencv/new_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0aae.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG   -o CMakeFiles\cmTC_a0aae.dir\CheckFunctionExists.c.obj   -c F:\CMake\share\cmake-3.6\Modules\CheckFunctionExists.c
+F:\CMake\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_a0aae.exe
+F:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_a0aae.dir\link.txt --verbose=1
+F:\CMake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_a0aae.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_a0aae.dir/objects.a @CMakeFiles\cmTC_a0aae.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=fseeko -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_a0aae.dir/objects.a -Wl,--no-whole-archive  -o cmTC_a0aae.exe -Wl,--out-implib,libcmTC_a0aae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_a0aae.dir\linklibs.rsp
+CMakeFiles\cmTC_a0aae.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `fseeko'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_a0aae.dir\build.make:98: recipe for target 'cmTC_a0aae.exe' failed
+mingw32-make.exe[1]: *** [cmTC_a0aae.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'F:/opencv/new_build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_a0aae/fast' failed
+mingw32-make.exe: *** [cmTC_a0aae/fast] Error 2
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: F:/opencv/new_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_d3fed/fast"
+C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d3fed.dir\build.make CMakeFiles/cmTC_d3fed.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/opencv/new_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3fed.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG   -o CMakeFiles\cmTC_d3fed.dir\CheckFunctionExists.c.obj   -c F:\CMake\share\cmake-3.6\Modules\CheckFunctionExists.c
+F:\CMake\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_d3fed.exe
+F:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_d3fed.dir\link.txt --verbose=1
+F:\CMake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_d3fed.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d3fed.dir/objects.a @CMakeFiles\cmTC_d3fed.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=jbg_newlen -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_d3fed.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d3fed.exe -Wl,--out-implib,libcmTC_d3fed.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d3fed.dir\linklibs.rsp
+CMakeFiles\cmTC_d3fed.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `jbg_newlen'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_d3fed.dir\build.make:98: recipe for target 'cmTC_d3fed.exe' failed
+mingw32-make.exe[1]: *** [cmTC_d3fed.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'F:/opencv/new_build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_d3fed/fast' failed
+mingw32-make.exe: *** [cmTC_d3fed/fast] Error 2
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: F:/opencv/new_build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_5cf70/fast"
+C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_5cf70.dir\build.make CMakeFiles/cmTC_5cf70.dir/build
+mingw32-make.exe[1]: Entering directory 'F:/opencv/new_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5cf70.dir/CheckFunctionExists.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG   -o CMakeFiles\cmTC_5cf70.dir\CheckFunctionExists.c.obj   -c F:\CMake\share\cmake-3.6\Modules\CheckFunctionExists.c
+F:\CMake\share\cmake-3.6\Modules\CheckFunctionExists.c:7:3: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+   CHECK_FUNCTION_EXISTS();
+   ^
+Linking C executable cmTC_5cf70.exe
+F:\CMake\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_5cf70.dir\link.txt --verbose=1
+F:\CMake\bin\cmake.exe -E remove -f CMakeFiles\cmTC_5cf70.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_5cf70.dir/objects.a @CMakeFiles\cmTC_5cf70.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -fsigned-char -mstackrealign -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wno-narrowing -fdiagnostics-show-option -march=i686 -fomit-frame-pointer -msse -msse2 -mfpmath=sse -ffunction-sections -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=mmap -O3 -DNDEBUG    -Wl,--whole-archive CMakeFiles\cmTC_5cf70.dir/objects.a -Wl,--no-whole-archive  -o cmTC_5cf70.exe -Wl,--out-implib,libcmTC_5cf70.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_5cf70.dir\linklibs.rsp
+CMakeFiles\cmTC_5cf70.dir/objects.a(CheckFunctionExists.c.obj):CheckFunctionExists.c:(.text.startup.main+0xc): undefined reference to `mmap'
+collect2.exe: error: ld returned 1 exit status
+CMakeFiles\cmTC_5cf70.dir\build.make:98: recipe for target 'cmTC_5cf70.exe' failed
+mingw32-make.exe[1]: *** [cmTC_5cf70.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'F:/opencv/new_build/CMakeFiles/CMakeTmp'
+Makefile:125: recipe for target 'cmTC_5cf70/fast' failed
+mingw32-make.exe: *** [cmTC_5cf70/fast] Error 2
+
+

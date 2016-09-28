@@ -1,0 +1,1 @@
+-IF:/opencv/new_build -IF:/opencv/sources/apps/annotation/PRIVATE -IF:/opencv/sources/apps/annotation -IF:/opencv/sources/include/opencv -IF:/opencv/sources/modules/core/include -IF:/opencv/sources/modules/highgui/include -IF:/opencv/sources/modules/imgproc/include -IF:/opencv/sources/modules/imgcodecs/include -IF:/opencv/sources/modules/videoio/include 
