@@ -1,0 +1,118 @@
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  "C"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_aux.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_aux.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_close.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_close.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_codec.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_codec.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_color.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_color.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_compress.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_compress.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_dir.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_dir.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_dirinfo.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_dirinfo.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_dirread.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_dirread.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_dirwrite.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_dirwrite.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_dumpmode.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_dumpmode.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_error.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_error.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_extension.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_extension.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_fax3.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_fax3.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_fax3sm.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_fax3sm.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_flush.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_flush.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_getimage.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_getimage.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_jbig.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_jbig.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_jpeg.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_jpeg.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_jpeg_12.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_jpeg_12.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_luv.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_luv.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_lzma.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_lzma.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_lzw.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_lzw.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_next.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_next.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_ojpeg.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_ojpeg.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_open.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_open.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_packbits.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_packbits.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_pixarlog.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_pixarlog.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_predict.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_predict.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_print.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_print.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_read.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_read.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_strip.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_strip.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_swab.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_swab.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_thunder.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_thunder.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_tile.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_tile.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_version.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_version.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_warning.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_warning.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_win32.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_win32.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_write.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_write.c.obj"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff/tif_zip.c" "F:/tesseract/new_build/cppan/ec64e8/CMakeFiles/pvt.cppan.demo.tiff-4.0.6.dir/libtiff/tif_zip.c.obj"
+  )
+set(CMAKE_C_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "CPPAN"
+  "HAVE_ASSERT_H"
+  "HAVE_FCNTL_H"
+  "HAVE_FLOOR"
+  "HAVE_GETOPT"
+  "HAVE_INTTYPES_H"
+  "HAVE_IO_H"
+  "HAVE_ISASCII"
+  "HAVE_LFIND"
+  "HAVE_LIMITS_H"
+  "HAVE_LONG_LONG_INT"
+  "HAVE_MALLOC_H"
+  "HAVE_MEMMOVE"
+  "HAVE_MEMORY_H"
+  "HAVE_MEMSET"
+  "HAVE_OFF_T"
+  "HAVE_POW"
+  "HAVE_PTRDIFF_T"
+  "HAVE_SEARCH_H"
+  "HAVE_SETMODE"
+  "HAVE_SIGNED_INT"
+  "HAVE_SIGNED_LONG"
+  "HAVE_SIGNED_LONG_LONG"
+  "HAVE_SIGNED_SHORT"
+  "HAVE_SIZE_T"
+  "HAVE_SNPRINTF"
+  "HAVE_SQRT"
+  "HAVE_STDBOOL_H"
+  "HAVE_STDINT_H"
+  "HAVE_STDLIB_H"
+  "HAVE_STRCASECMP"
+  "HAVE_STRCHR"
+  "HAVE_STRINGS_H"
+  "HAVE_STRING_H"
+  "HAVE_STRRCHR"
+  "HAVE_STRSTR"
+  "HAVE_STRTOL"
+  "HAVE_STRTOULL"
+  "HAVE_SYS_STAT_H"
+  "HAVE_SYS_TIME_H"
+  "HAVE_SYS_TYPES_H"
+  "HAVE_UNISTD_H"
+  "HAVE_UNSIGNED_CHAR_P"
+  "HAVE_UNSIGNED_INT"
+  "HAVE_UNSIGNED_LONG"
+  "HAVE_UNSIGNED_LONG_LONG"
+  "HAVE_UNSIGNED_SHORT"
+  "HAVE_VOID_P"
+  "HAVE_WCHAR_T"
+  "HAVE__BOOL"
+  "TIF_PLATFORM_CONSOLE"
+  )
+
+# The include file search paths:
+set(CMAKE_C_TARGET_INCLUDE_PATH
+  "cppan/ec64e8"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.tiff/4.0.6/libtiff"
+  "cppan/821ee4"
+  "C:/Users/user/.cppan/packages/pvt.cppan.demo.zlib/1.2.8/."
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "F:/tesseract/new_build/cppan/821ee4/CMakeFiles/pvt.cppan.demo.zlib-1.2.8.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

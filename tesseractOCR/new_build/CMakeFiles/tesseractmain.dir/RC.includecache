@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+F:/tesseract/vs2010/tesseract/resource.h
+
+F:/tesseract/vs2010/tesseract/tesseract.rc
+resource.h
+F:/tesseract/vs2010/tesseract/resource.h
+windows.h
+F:/tesseract/vs2010/tesseract/windows.h
+
